@@ -55,7 +55,8 @@ body {
 }
 
 .navigation-button:hover {
-    box-shadow: 0px 0px 25px 25px rgba(248, 247, 247, 0.888);
+    transition: ease .3s;
+    box-shadow: 0px 0px 100px -1px rgba(248, 247, 247, 0.711);
 }
 
 .button-icon {

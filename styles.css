@@ -62,3 +62,7 @@ body {
     font-size: 3em;
     margin-right: 20px;
 }
+
+.descriptive-button-text {
+    font-size: 15px;
+}

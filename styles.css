@@ -21,6 +21,8 @@ button {
     font-style: normal;
 }
 
+/** ESTILOS GENERALES **/
+
 html {
     font-family: 'Glacial Indifference', sans-serif;
     width: 100%;
@@ -39,6 +41,7 @@ body {
     background: linear-gradient(to right, #162780, #5766B7);
     color: white;
 }
+/** * ESTILOS DE LOS BOTONES DE NAVEGACIÓN **/
 
 .main-message {
     text-align: center;
@@ -63,6 +66,7 @@ body {
     border-radius: 20px;
     font-weight: 500;
 }
+/** EFECTOS DE CADA BOTÓN **/
 
 .navigation-button:hover {
     transition: ease .3s;

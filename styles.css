@@ -12,7 +12,17 @@ button {
 
 /* ESTILOS */
 
+/** FUENTE PREDETERMINADA **/
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('./fonts/glacial-indifference.regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
+    font-family: 'Glacial Indifference', sans-serif;
     width: 100%;
     height: 100%;
     display: flex;
@@ -26,7 +36,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Wix Madefor Display', sans-serif;
     background: linear-gradient(to right, #162780, #5766B7);
     color: white;
 }

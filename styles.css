@@ -70,7 +70,7 @@ body {
 
 .navigation-button:hover {
     transition: ease .3s;
-    box-shadow: 0px 0px 100px -1px rgba(248, 247, 247, 0.711);
+    box-shadow: 0px 0px 60px 0px rgb(199 199 199 / 29%)
 }
 
 .button-icon {

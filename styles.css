@@ -61,7 +61,7 @@ body {
     background-color: #4E5DAF;
     border: none;
     border-radius: 20px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .navigation-button:hover {
@@ -75,5 +75,6 @@ body {
 }
 
 .descriptive-button-text {
+    font-family: 'Glacial Indifference', sans-serif;
     font-size: 15px;
 }

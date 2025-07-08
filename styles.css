@@ -82,3 +82,9 @@ body {
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 17px;
 }
+
+/** PÁGINA DE AUTENTICACIÓN DEL ADMINISTRADOR **/
+
+#welcome-text {
+    font-weight: 900;
+}

@@ -110,6 +110,7 @@ body {
 #sign-in {
     font-family: 'Glacial Indifference', sans-serif;
     color: white;
+    border: 1px solid;
     border-color: white;
     border-radius: 20px;
     background-color: transparent;

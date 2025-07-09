@@ -90,9 +90,15 @@ body {
 }
 
 #email, #password {
-    font-family: 'Glacial Indifference', sans-serif;
     background: none;
-    border: none;
+        border: none;
+
+}
+
+#email[type="email"]::placeholder, #password[type="password"]::placeholder {
+    background: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Glacial Indifference', sans-serif;
 }
 
 #password-forgot {

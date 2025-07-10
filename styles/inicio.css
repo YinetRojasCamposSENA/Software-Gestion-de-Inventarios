@@ -16,7 +16,7 @@ button {
 
 @font-face {
     font-family: 'Glacial Indifference';
-    src: url('./fonts/glacial-indifference.regular.woff') format('woff');
+    src: url('../fonts/glacial-indifference.regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

@@ -41,47 +41,7 @@ body {
     background: linear-gradient(to right, #162780, #5766B7);
     color: white;
 }
-/** * ESTILOS DE LOS BOTONES DE NAVEGACIÓN **/
 
-.main-message {
-    text-align: center;
-}
-
-.main-buttons-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.navigation-button {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5%;
-    padding: 5%;
-    color: white;
-    background-color: #4E5DAF;
-    border: none;
-    border-radius: 40px;
-    font-weight: 500;
-}
-/** EFECTOS DE CADA BOTÓN **/
-
-.navigation-button:hover {
-    transition: ease .3s;
-    box-shadow: 0px 0px 60px 0px rgb(199 199 199 / 29%)
-}
-
-.button-icon {
-    font-size: 3em;
-    margin-right: 20px;
-}
-
-.descriptive-button-text {
-    font-family: 'Glacial Indifference', sans-serif;
-    font-size: 17px;
-}
 
 /** PÁGINA DE AUTENTICACIÓN DEL ADMINISTRADOR **/
 
@@ -104,6 +64,7 @@ body {
 }
 
 #password-forgot {
+    font-size: 14px;
     color: white;
     text-decoration: none;
 }
@@ -134,4 +95,10 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+.button-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
 }

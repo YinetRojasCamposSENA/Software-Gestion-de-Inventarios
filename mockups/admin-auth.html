@@ -4,7 +4,7 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Administrador - Autenticación SIGIT</title>
-		<link rel="stylesheet" href="../styles.css">
+		<link rel="stylesheet" href="../.css">
 		<script src="https://kit.fontawesome.com/14a461a11c.js" crossorigin="anonymous"></script>
 		<meta charset="UTF-8">
 		
@@ -15,14 +15,20 @@
 		</header>
 		<main>
 			<i class="fa-regular fa-circle-user button-icon" style="color: #ffffff;"></i>
-			<p id="welcome-text">¡Bienvenido, Administrador!</p>
-			<p id="descriptive-text"><i>Ingrese sus credenciales</i></p>
-			<form method="post">
-				<input type="email" name="email" id="email" placeholder="Correo electrónico">
-				<input type="password" name="password" id="password" placeholder="Contraseña">
-			</form>
-			<a id="password-forgot" href="#" target="_blank" rel="noopener noreferrer">	<i>¿Olvidó su contraseña?</i></a>
-			<button id="sign-in" type="submit">Iniciar sesión</button>
+			<section class="login-form">
+
+				<p id="welcome-text">¡Bienvenido, Administrador!</p>
+				<p id="descriptive-text"><i>Ingrese sus credenciales</i></p>
+				<form class="login-authentication-form" method="post">
+					<input type="email" name="email" id="email" placeholder="Correo electrónico">
+					<input type="password" name="password" id="password" placeholder="Contraseña">
+				</form>
+				<div class="remember-forgot-sign-in">
+
+					<a id="password-forgot" href="#" target="_blank" rel="noopener noreferrer">	<i>¿Olvidó su contraseña?</i></a>
+					<button id="sign-in" type="submit">Iniciar sesión</button>
+				</div>
+			</section>
 		</main>
 	</body>
 	<script src="script.js"></script>

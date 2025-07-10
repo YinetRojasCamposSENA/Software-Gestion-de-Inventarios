@@ -58,13 +58,11 @@ main {
 }
 
 #email, #password {
-    margin: 20px 0 20px 0
-    ;
-    width: 100%;
+    margin: 20px 0 20px 0;
+    width: 80%;
     background: none;
     border: none;
     border-bottom: 1px solid white;
-
 }
 
 #email[type="email"]::placeholder, #password[type="password"]::placeholder {
@@ -92,14 +90,27 @@ main {
 }
 
 .login-form {
+    background: linear-gradient(to right, #4E5DAF);
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+
 }
+
+.login-authentication-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
 .button-icon {
     text-align: center;
-    font-size: 3em;
+    font-size: 6em;
 }
 
 .remember-forgot-sign-in {

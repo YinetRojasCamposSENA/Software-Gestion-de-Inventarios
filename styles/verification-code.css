@@ -116,3 +116,14 @@ main {
     justify-content: center;
     width: 100%;
 }
+
+input {
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+input:hover {
+    box-shadow: 20px 20px 60px 60px rgba(246, 242, 242, 0.919);
+}

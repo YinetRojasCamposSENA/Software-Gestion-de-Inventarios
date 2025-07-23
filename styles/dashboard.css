@@ -38,8 +38,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(to right, #162780, #5766B7);
-    color: white;
+    background: white;
+    color: #4E5DAF;
 }
 
 main {

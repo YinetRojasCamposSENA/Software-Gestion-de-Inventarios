@@ -70,6 +70,7 @@ main {
 }
 
 .navigation-dashboard-buttons {
+    cursor: pointer;
     border-radius: 20px;
     color: #4E5DAF;
     font-family: 'Glacial Indifference', sans-serif;

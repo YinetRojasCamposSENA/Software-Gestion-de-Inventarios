@@ -129,5 +129,8 @@ input:hover {
 }
 
 .navigation-dashboard-buttons {
+    font-family: 'Glacial Indifference', sans-serif;
     padding: 10px;
+    background: none;
+    border: #4E5DAF solid;
 }

@@ -43,81 +43,22 @@ main {
     height: 100%;
 }
 
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /** PÁGINA DE AUTENTICACIÓN DEL ADMINISTRADOR **/
 
 #welcome-text {
     font-weight: 900;
 }
 
-#name, #surname, #email, #password {
-    margin: 20px 0 20px 0;
-    width: 80%;
-    background: none;
-    border: none;
-    border-bottom: 1px solid white;
-}
-
-
-#password-forgot {
-    margin: 15px 0 15px 0;
-    font-size: 14px;
-    color: white;
-    text-decoration: none;
-}
-
-#sign-in {
-    font-family: 'Glacial Indifference', sans-serif;
-    color: white;
-    border: 1px solid;
-    border-color: white;
-    border-radius: 20px;
-    background-color: transparent;
-    padding: 10px;
-    cursor: pointer;
-    margin: 20px;
-}
-
-.login-form {
-    background: linear-gradient(to right, #4E5DAF);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-
-}
-
-.login-authentication-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-
 .button-icon {
     text-align: center;
     font-size: 6em;
-}
-
-.remember-forgot-sign-in {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-input {
-    width: 30px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid white;
-}
-
-input:hover {
-    box-shadow: 20px 20px 60px 60px rgba(246, 242, 242, 0.919);
 }
 
 .navigation-dashboard-buttons {

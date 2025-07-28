@@ -127,3 +127,7 @@ input {
 input:hover {
     box-shadow: 20px 20px 60px 60px rgba(246, 242, 242, 0.919);
 }
+
+.navigation-dashboard-buttons {
+    padding: 10px;
+}

@@ -60,6 +60,12 @@ main {
     text-align: center;
     font-size: 6em;
 }
+.dashboard-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .navigation-dashboard-buttons {
     border-radius: 20px;

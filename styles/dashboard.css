@@ -78,3 +78,11 @@ main {
     background: none;
     border: #4E5DAF solid;
 }
+
+.inferior-button {
+    margin: 10px;
+}
+
+.dashboard-button-icon {
+    margin: 5px;
+}

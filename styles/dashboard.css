@@ -80,6 +80,13 @@ main {
     border: #4E5DAF solid;
 }
 
+.navigation-dashboard-buttons:hover {
+    box-shadow: 3px 1px 50px #4E5DAF;
+    transition: .3s ease-in;
+    background: #4E5DAF;
+    color: white;
+}
+
 .inferior-button {
     margin: 10px;
 }

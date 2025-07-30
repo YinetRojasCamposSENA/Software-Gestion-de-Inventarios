@@ -80,7 +80,7 @@ main {
     border: #4E5DAF solid;
 }
 
-.navigation-dashboard-buttons:hover {
+.navigation-dashboard-buttons:hover, .electronic-devices-buttons:hover {
     box-shadow: 3px 1px 50px #4E5DAF;
     transition: .3s ease-in;
     background: #4E5DAF;
@@ -93,4 +93,64 @@ main {
 
 .dashboard-button-icon {
     margin: 5px;
+}
+
+.electronic-devices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+}
+
+.electronic-devices-buttons {
+    cursor: pointer;
+    border-radius: 20px;
+    color: #4E5DAF;
+    font-family: 'Glacial Indifference', sans-serif;
+    padding: 10px;
+    background: none;
+    border: #4E5DAF solid;
+}
+
+.result-button {
+    text-align: center;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #4E5DAF;
+    font-family: 'Glacial Indifference', sans-serif;
+    padding: 10px;
+    background: none;
+    border: #4E5DAF solid;
+}
+
+.filters-and-results-tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.searching-and-filters-tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.searching-tab input{
+    border: #4E5DAF solid;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+#search-button {
+    cursor: pointer;
+    border-radius: 20px;
+    color: #4E5DAF;
+    font-family: 'Glacial Indifference', sans-serif;
+    padding: 10px;
+    background: none;
+    border: none;
 }

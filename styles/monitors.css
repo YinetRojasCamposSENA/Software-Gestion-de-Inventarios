@@ -103,6 +103,8 @@ main {
 }
 
 .electronic-devices-buttons {
+    display: flex;
+    margin: 5%;
     cursor: pointer;
     border-radius: 20px;
     color: #4E5DAF;
@@ -110,6 +112,7 @@ main {
     padding: 10px;
     background: none;
     border: #4E5DAF solid;
+    align-items: center;
 }
 
 .result-button {
@@ -152,5 +155,5 @@ main {
     font-family: 'Glacial Indifference', sans-serif;
     padding: 10px;
     background: none;
-    border: none;
+    border: none; 
 }

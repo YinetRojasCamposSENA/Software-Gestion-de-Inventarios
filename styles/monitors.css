@@ -84,7 +84,7 @@ main {
     box-shadow: 3px 1px 50px #4E5DAF;
     transition: .3s ease-in;
     background: #4E5DAF;
-    color: white;
+    color: white !important;
 }
 
 .inferior-button {
@@ -156,4 +156,20 @@ main {
     padding: 10px;
     background: none;
     border: none; 
+}
+.table-header {
+    border: 3px #313a6a solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.table-header:hover{
+    box-shadow: 3px 1px 50px #4E5DAF;
+    transition: .3s ease-in;
+    background: #4E5DAF;
+    color: white;
+}
+
+.electronic-device-button-icon {
+    margin: 0 15px 0px 0;
 }

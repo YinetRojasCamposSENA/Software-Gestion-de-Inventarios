@@ -1,0 +1,175 @@
+
+/* RESET ESTILOS */
+
+h1 {
+    margin: 0;
+}
+
+button {
+    padding: 0;
+}
+
+
+/* ESTILOS */
+
+/** FUENTE PREDETERMINADA **/
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('../fonts/glacial-indifference.regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** ESTILOS GENERALES **/
+
+html {
+    font-family: 'Glacial Indifference', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: white;
+    color: #4E5DAF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.main-menu {
+    margin: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/** PÁGINA DE AUTENTICACIÓN DEL ADMINISTRADOR **/
+
+#welcome-text {
+    font-weight: 900;
+}
+
+.button-icon {
+    text-align: center;
+    font-size: 6em;
+}
+.dashboard-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-dashboard-buttons {
+    cursor: pointer;
+    border-radius: 20px;
+    color: #4E5DAF;
+    font-family: 'Glacial Indifference', sans-serif;
+    padding: 10px;
+    background: none;
+    border: #4E5DAF solid;
+}
+
+.navigation-dashboard-buttons:hover, .electronic-devices-buttons:hover {
+    box-shadow: 3px 1px 50px #4E5DAF;
+    transition: .3s ease-in;
+    background: #4E5DAF;
+    color: white !important;
+}
+
+.inferior-button {
+    margin: 10px;
+}
+
+.dashboard-button-icon {
+    margin: 5px;
+}
+
+.electronic-devices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+}
+
+.electronic-devices-buttons {
+    display: flex;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #4E5DAF;
+    font-family: 'Glacial Indifference', sans-serif;
+    padding: 10px;
+    background: none;
+    border: #4E5DAF solid;
+    align-items: center;
+}
+
+.result-button {
+    text-align: center;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #4E5DAF;
+    font-family: 'Glacial Indifference', sans-serif;
+    padding: 10px;
+    background: none;
+    border: #4E5DAF solid;
+}
+
+.filters-and-results-tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.searching-and-filters-tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.searching-tab input{
+    border: #4E5DAF solid;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+#search-button {
+    cursor: pointer;
+    border-radius: 20px;
+    color: #4E5DAF;
+    font-family: 'Glacial Indifference', sans-serif;
+    padding: 10px;
+    background: none;
+    border: none; 
+}
+.table-header {
+    border: 3px #313a6a solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.table-header:hover{
+    box-shadow: 3px 1px 50px #4E5DAF;
+    transition: .3s ease-in;
+    background: #4E5DAF;
+    color: white;
+}
+
+.electronic-device-button-icon {
+    margin: 0 15px 0px 0;
+}
